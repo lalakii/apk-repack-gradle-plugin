@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.lalaki.repack</groupId>
+  <artifactId>cn.lalaki.repack.gradle.plugin</artifactId>
+  <version>3.0.3-LTS</version>
+  <packaging>pom</packaging>
+  <name>APK Repack Gradle Plugin</name>
+  <description>Repackage the apk with seven zip and sign it.</description>
+  <url>https://github.com/lalakii/apk-repack-gradle-plugin</url>
+  <organization>
+    <name>lalakii</name>
+    <url>https://lalaki.cn</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>lalakii</name>
+      <email>i@lalaki.cn</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/lalakii/apk-repack-gradle-plugin</connection>
+    <developerConnection>scm:git:https://github.com/lalakii/apk-repack-gradle-plugin</developerConnection>
+    <url>https://github.com/lalakii/apk-repack-gradle-plugin</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>cn.lalaki.repack</groupId>
+      <artifactId>plugin</artifactId>
+      <version>3.0.3-LTS</version>
+    </dependency>
+  </dependencies>
+</project>

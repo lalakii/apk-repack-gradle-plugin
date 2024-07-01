@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>cn.lalaki.repack</groupId>
+  <artifactId>plugin</artifactId>
+  <versioning>
+    <latest>3.0.3-LTS</latest>
+    <release>3.0.3-LTS</release>
+    <versions>
+      <version>3.0.3-LTS</version>
+    </versions>
+    <lastUpdated>20240701183554</lastUpdated>
+  </versioning>
+</metadata>

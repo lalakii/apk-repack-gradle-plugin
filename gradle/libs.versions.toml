@@ -1,0 +1,20 @@
+[versions]
+commonsIo = "2.16.1"
+repackPlugin = "3.0.3-LTS"
+kotlin = "2.0.0"
+gradle-android = "8.5.0"
+toolchain = "17"
+zip4j = "2.11.5"
+
+[libraries]
+android-gradle = { module = "com.android.tools.build:gradle", version.ref = "gradle-android" }
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version = "1.7.0" }
+commons-io = { module = "commons-io:commons-io", version.ref = "commonsIo" }
+zip4j = { module = "net.lingala.zip4j:zip4j", version.ref = "zip4j" }
+
+[plugins]
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+android-application = { id = "com.android.application", version.ref = "gradle-android" }
+publish = { id = "com.gradle.plugin-publish", version = "1.2.1" }
+repackPlugin = { id = "cn.lalaki.repack", version.ref = "repackPlugin" }
